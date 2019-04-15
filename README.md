@@ -6,10 +6,9 @@ This is a customizable Multi Select Control built to be used in any [ReactJS](ht
 
 ![DemoGif](/examples/Demo.gif?raw=true "Gif")
 
-
 ## Installation and Usage Guide
 ### Installation
-`npm i react-multiple-select`
+`npm i react-multi-selectboxes`
 
 ### Usage Guide
 This usage of this component is as simple as below:
@@ -20,7 +19,6 @@ This usage of this component is as simple as below:
   getSelectedValuesCallback={this.getSelectedItems.bind(this)}
 
   // All attributes below are optional for styling
-
   mainContainerClassName="main-container-class"
   leftContainerClassName="left-container-class"
   middleContainerClassName="middle-container-class"
@@ -31,7 +29,6 @@ This usage of this component is as simple as below:
   selectAllInnerHTML=">>"
   deSelectOneInnerHTML="<"
   deSelectAllInnerHTML="<<"
-
   />
 ```
   - In the above snippet, **`items`** is an array of all items which are needed to go in the unselected items, **getSelectedValuesCallback** is the callback function which can be used to get the array of selected items, and the rest of the attributes are optional and can be used for styling purpose.

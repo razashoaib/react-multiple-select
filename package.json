@@ -1,6 +1,6 @@
 {
-  "name": "react-multiple-select",
-  "version": "1.0.0",
+  "name": "react-multi-selectboxes",
+  "version": "1.0.1",
   "description": "Multiple Select Control for ReactJS",
   "main": "dist/index.js",
   "scripts": {
@@ -8,6 +8,10 @@
     "start": "webpack-dev-server --mode development",
     "transpile": "babel src -d dist --copy-files",
     "prepublishOnly": "npm run transpile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razashoaib/react-multiple-select.git"
   },
   "keywords": [
     "react-multiple-select",
@@ -21,6 +25,10 @@
   ],
   "author": "Syed Shoaib Abidi",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/razashoaib/react-multiple-select/issues"
+  },
+  "homepage": "https://github.com/razashoaib/react-multiple-select#readme",
   "peerDependencies": {
     "react": "^16.3.0",
     "react-dom": "^16.3.0"
