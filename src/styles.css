@@ -1,0 +1,31 @@
+.multiple-select-container {
+  display: inline-block;
+}
+
+.multiple-select-container select{
+  min-width: 150px;
+  margin: 5px;
+  min-height: 100px;
+}
+
+.multiple-select-left-container {
+  display: inline-block;
+  float: left;
+}
+
+.multiple-select-middle-container {
+  display: inline-block;
+  float: left;
+  margin-top: 1em;
+}
+
+.multiple-select-middle-container ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.multiple-select-right-container {
+  display: inline-block;
+  float: left;
+}
